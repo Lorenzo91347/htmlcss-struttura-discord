@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    max-width: 400 px;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: baseline;
+
+}
+
+header {
+    width: 1300px;
+    background-color: black;
+}
