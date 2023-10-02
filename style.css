@@ -11,11 +11,17 @@
     max-width: 400 px;
     color: white;
     flex-wrap: wrap;
-    justify-content: baseline;
+    justify-content: space-between;
+    margin: 0 60px;
 
 }
 
+div::after {
+    line-break: auto;
+    border: 2px dotted green;
+}
+
 header {
-    width: 1300px;
+
     background-color: black;
 }
