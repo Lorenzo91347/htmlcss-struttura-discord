@@ -7,21 +7,51 @@
 .head {
     display: flex;
     flex-direction: row;
-    height: 20px;
-    max-width: 400 px;
     color: white;
-    flex-wrap: wrap;
     justify-content: space-between;
     margin: 0 60px;
 
+
 }
 
-div::after {
+.head>div {
     line-break: auto;
     border: 2px dotted green;
+
+
 }
+
+header>.link {
+    flex-grow: 1;
+    text-align: center;
+}
+
+
 
 header {
 
     background-color: black;
+}
+
+.boxes {
+    display: flex;
+    border: 2px solid black;
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    justify-content: center;
+    padding-top: 30px;
+
+}
+
+.box1 {
+    width: 40%;
+    height: 40%;
+    background-color: rgb(80, 80, 164);
+}
+
+.box2 {
+    width: 20%;
+    height: 40%;
+    background-color: salmon;
 }
