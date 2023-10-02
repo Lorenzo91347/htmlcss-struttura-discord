@@ -16,7 +16,7 @@
 
 .head>div {
     line-break: auto;
-    border: 2px dotted green;
+    border: 1px dotted green;
 
 
 }
@@ -33,25 +33,121 @@ header {
     background-color: black;
 }
 
+.box {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+}
+
+.bluebox {
+    width: 40%;
+    height: 80%;
+    background-color: rgb(231, 22, 133);
+    border: 1px dotted black;
+}
+
 .boxes {
     display: flex;
-    border: 2px solid black;
     width: 100%;
-    height: 300px;
+    height: 250px;
     background-color: white;
     justify-content: center;
-    padding-top: 30px;
+    align-items: center;
 
 }
 
 .box1 {
-    width: 40%;
-    height: 40%;
+    width: 30%;
+    height: 70%;
     background-color: rgb(80, 80, 164);
 }
 
 .box2 {
-    width: 20%;
-    height: 40%;
+    width: 18%;
+    height: 70%;
     background-color: salmon;
+}
+
+.boxes .boxes2 .boxes3 .boxes4>div {
+    border: 1px dotted black;
+}
+
+.boxes2 {
+    display: flex;
+    width: 100%;
+    height: 250px;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+}
+
+.box3 {
+    width: 18%;
+    height: 70%;
+    background-color: salmon;
+}
+
+.box4 {
+    width: 30%;
+    height: 70%;
+    background-color: rgb(80, 80, 164);
+}
+
+.boxes3 {
+    display: flex;
+    width: 100%;
+    height: 250px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.box5 {
+    width: 30%;
+    height: 70%;
+    background-color: rgb(80, 80, 164);
+}
+
+.box6 {
+    width: 18%;
+    height: 70%;
+    background-color: salmon;
+}
+
+.boxes4 {
+    display: flex;
+    width: 100%;
+    height: 350px;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+}
+
+.box7 {
+    width: 60%;
+    height: 70%;
+    background-color: green;
+}
+
+.boxes5 {
+    display: flex;
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxes5>div {
+    width: 10%;
+    height: 70%;
+    background-color: blueviolet;
+    border: 1px dotted white;
+}
+
+.box8 {
+    flex-flow: ;
 }
