@@ -17,12 +17,13 @@
 .head>div {
     line-break: auto;
     border: 1px dotted green;
+    width: 10%;
 
 
 }
 
 header>.link {
-    flex-grow: 1;
+    width: 60%;
     text-align: center;
 }
 
@@ -144,10 +145,24 @@ header {
 .boxes5>div {
     width: 10%;
     height: 70%;
-    background-color: blueviolet;
+    background-color: #ffc0cb;
     border: 1px dotted white;
 }
 
-.box8 {
-    flex-flow: ;
+.boxes5>.box8 {
+    width: 15%;
+    background-color: #1e90ff;
+}
+
+.footer {
+    display: flex;
+    background-color: aquamarine;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.footer>div {
+    background-color: #ffc0cb;
+    border: 2px dotted black;
 }
